@@ -5,12 +5,13 @@
 
 </form>
 
-<% if @result %>
+<% if @last_trade %>
 <section>
   <header>
     <h1>Last Trade:</h1>
   </header>
-  <%= @result %>
+  <%= @last_trade %>
+  <%= @stock_name %>
 </section>
 
 <% end %>
